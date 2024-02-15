@@ -28,3 +28,14 @@ plt.figure(figsize=(8, 6))
 sns.countplot(x='DeviceStatus', data=synthetic_dataset)
 plt.title('Distribution of DeviceStatus')
 plt.show()
+
+
+
+
+
+
+# Plot overall distribution pair plot
+sns.set(style="ticks")
+sns.pairplot(synthetic_dataset, hue="DeviceStatus", palette="husl", markers=["o", "s"])
+plt.suptitle("Overall Distribution Pair Plot", y=1.02)
+plt.show()
