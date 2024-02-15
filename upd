@@ -1,0 +1,30 @@
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Load the synthetic dataset from the CSV file
+synthetic_dataset = pd.read_csv('synthetic_dataset.csv')
+
+# Plot distribution of DeviceName
+plt.figure(figsize=(10, 6))
+sns.countplot(x='DeviceName', data=synthetic_dataset)
+plt.title('Distribution of DeviceName')
+plt.show()
+
+# Plot distribution of Weather
+plt.figure(figsize=(12, 6))
+sns.countplot(x='Weather', data=synthetic_dataset)
+plt.title('Distribution of Weather')
+plt.xticks(rotation=45, ha='right')
+plt.show()
+
+# Plot distribution of RoomName
+plt.figure(figsize=(10, 6))
+sns.countplot(x='RoomName', data=synthetic_dataset)
+plt.title('Distribution of RoomName')
+plt.show()
+
+# Plot distribution of DeviceStatus
+plt.figure(figsize=(8, 6))
+sns.countplot(x='DeviceStatus', data=synthetic_dataset)
+plt.title('Distribution of DeviceStatus')
+plt.show()
