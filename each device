@@ -1,23 +1,153 @@
-# Convert timestamp to datetime
-synthetic_dataset['Timestamp'] = pd.to_datetime(synthetic_dataset['Timestamp'], unit='ms')
+import numpy as np
+import pandas as pd
+from datetime import datetime, timedelta
+from sklearn.preprocessing import MinMaxScaler
 
-# List of devices
-devices = ['Light', 'Thermostat', 'Smartlock', 'SmartBlinds', 'WaterHeater', 'SmartKettle', 'SmartTV']
+# Set seed for reproducibility
+np.random.seed(42)
 
-# Plot time series for each device
-for device in devices:
-    plt.figure(figsize=(12, 6))
-    
-    # Filter dataset for the current device
-    device_data = synthetic_dataset[synthetic_dataset['DeviceName'] == device]
-    
-    # Plotting the time series
-    plt.plot(device_data['Timestamp'], device_data['PowerStatus'], marker='o')
-    
-    # Customize plot with dynamic title
-    plt.title(f'{device} Device Usage Over Time')
-    plt.xlabel('Timestamp')
-    plt.ylabel('PowerStatus')
-    
-    # Display the plot
-    plt.show()
+# Function to generate random timestamps for a given day and time range
+def generate_random_timestamps(day, start_time, end_time, num_samples):
+    start_timestamp = datetime.combine(day, start_time).timestamp() * 1000  # Convert to milliseconds
+    end_timestamp = datetime.combine(day, end_time).timestamp() * 1000
+    # Ensure that start_timestamp is less than end_timestamp
+    start_timestamp, end_timestamp = min(start_timestamp, end_timestamp), max(start_timestamp, end_timestamp)
+    return np.random.randint(start_timestamp, end_timestamp + 1, num_samples)
+
+# Function to choose a random time range based on weekday routine
+def choose_time_range():
+    weekday_time_ranges = [
+        (datetime.strptime('6:00', '%H:%M').time(), datetime.strptime('11:00', '%H:%M').time()),
+        (datetime.strptime('11:00', '%H:%M').time(), datetime.strptime('15:00', '%H:%M').time()),
+        (datetime.strptime('15:00', '%H:%M').time(), datetime.strptime('19:00', '%H:%M').time()),
+        (datetime.strptime('19:00', '%H:%M').time(), datetime.strptime('01:00', '%H:%M').time()),
+        (datetime.strptime('22:00', '%H:%M').time(), datetime.strptime('01:00', '%H:%M').time())
+    ]
+    selected_time_range = np.random.choice(len(weekday_time_ranges))
+    return weekday_time_ranges[selected_time_range][0], weekday_time_ranges[selected_time_range][1]
+
+# Function to simulate device usage based on weather conditions and room type
+def use_device(device, room_name):
+    if device == 'Light':
+        if room_name in ['Bedroom', 'Bathroom']:
+            return np.random.choice(['Off', 'On'], p=[0.8, 0.2])
+        else:
+            return np.random.choice(['Off', 'On'], p=[0.3, 0.7])
+    elif device == 'Thermostat':
+        return 'On'
+    elif device == 'Smartlock':
+        return np.random.choice(['Locked', 'Unlocked'], p=[0.1, 0.9])
+    elif device == 'SmartBlinds':
+        return np.random.choice(['Closed', 'Open'], p=[0.4, 0.6])
+    elif device == 'WaterHeater':
+        return np.random.choice(['Off', 'On'], p=[0.9, 0.1])
+    elif device == 'SmartKettle':
+        return np.random.choice(['Off', 'On'], p=[0.7, 0.3])
+    elif device == 'SmartTV':
+        return np.random.choice(['Off', 'On'], p=[0.5, 0.5])
+
+# Function to simulate weather conditions
+def simulate_weather():
+    weather_conditions = ['Sunny', 'Light Rain', 'Heavy Rain', 'Windy', 'Stormy', 'Cloudy', 'Partly Cloudy']
+    return np.random.choice(weather_conditions)
+
+# Function to determine activity based on room type
+def determine_activity(room_name):
+    if room_name == 'Bedroom':
+        return 'Sleeping'
+    elif room_name == 'Bathroom':
+        return 'Bathing'
+    elif room_name == 'LivingRoom':
+        return np.random.choice(['Watching TV', 'Reading', 'Relaxing'])
+    elif room_name == 'Kitchen':
+        return 'Cooking'
+    elif room_name == 'Outdoor':
+        return np.random.choice(['Playing', 'Gardening', 'Outdoor Relaxation'])
+
+# Function to create synthetic dataset
+def create_synthetic_dataset(num_samples):
+    room_devices = {
+        'Bedroom': ['Light', 'SmartBlinds', 'Thermostat'],
+        'Bathroom': ['Light', 'WaterHeater'],
+        'LivingRoom': ['Light', 'SmartTV', 'SmartBlinds', 'Thermostat', 'Smartlock'],
+        'Kitchen': ['Light', 'SmartKettle'],
+        'Outdoor': ['Light', 'SmartDoor']
+    }
+
+    # Initialize empty lists to store data
+    device_names = []
+    timestamps = []
+    activities = []  # New column for activities
+    room_names = []
+    power_status = []
+    weather_conditions = []  # New column for weather conditions
+    week_days = []  # New column for weekdays
+    user_ids = []  # New column for user IDs
+
+    # Generate synthetic data
+    for _ in range(num_samples):
+        # Randomly select a room
+        room_name = np.random.choice(list(room_devices.keys()))
+
+        # Randomly select a device from the specified devices for the room
+        device = np.random.choice(room_devices[room_name])
+
+        # Randomly select a timestamp within the specified start and end date
+        start_date = datetime(2024, 1, 1)
+        end_date = datetime(2024, 2, 15)
+        
+        # Ensure the day selected is Monday to Friday
+        day = np.random.choice(pd.date_range(start_date, end_date).date)
+        while day.strftime('%A') not in ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']:
+            day = np.random.choice(pd.date_range(start_date, end_date).date)
+        
+        start_time, end_time = choose_time_range()
+        timestamp = generate_random_timestamps(day, start_time, end_time, 1)[0]
+
+        # Use devices based on weather conditions and room type
+        power_status_value = use_device(device, room_name)
+
+        # Determine activity based on room type
+        activity = determine_activity(room_name)
+
+        # Append data to lists
+        device_names.append(device)
+        timestamps.append(timestamp)
+        activities.append(activity)
+        room_names.append(room_name)
+        power_status.append(power_status_value)
+        weather_conditions.append(simulate_weather())
+        week_days.append(day.strftime('%A'))  # Get the day of the week
+        user_ids.append('243jfejt948er9')  # Set a constant user ID
+
+    # Create synthetic dataset
+    synthetic_data = pd.DataFrame({
+        'DeviceName': device_names,
+        'Weather': weather_conditions,
+        'Timestamp': timestamps,
+        'Activity': activities,
+        'RoomName': room_names,
+        'PowerStatus': power_status,
+        'Week': week_days,
+        'UserId': user_ids
+    })
+
+    return synthetic_data
+
+# Specify the number of samples
+num_samples = 10000
+
+# Create synthetic dataset
+synthetic_dataset = create_synthetic_dataset(num_samples)
+
+# Sort the dataset by timestamp
+synthetic_dataset = synthetic_dataset.sort_values(by='Timestamp')
+
+# Print the first few rows of the dataset
+print("Generated User Pattern Dataset:")
+print(synthetic_dataset.head())
+
+# Save the dataset to a CSV file
+synthetic_dataset.to_csv('user_pattern_weekday_dataset_modified.csv', index=False)
+
+print("User pattern dataset saved to 'user_pattern_weekday_dataset_modified.csv'")
