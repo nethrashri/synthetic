@@ -1,11 +1,11 @@
 # Convert timestamp to datetime
 synthetic_dataset['Timestamp'] = pd.to_datetime(synthetic_dataset['Timestamp'], unit='ms')
 
-# Get unique devices in the dataset
-unique_devices = synthetic_dataset['DeviceName'].unique()
+# List of devices
+devices = ['Light', 'Thermostat', 'Smartlock', 'SmartBlinds', 'WaterHeater', 'SmartKettle', 'SmartTV']
 
 # Plot time series for each device
-for device in unique_devices:
+for device in devices:
     plt.figure(figsize=(12, 6))
     
     # Filter dataset for the current device
@@ -14,13 +14,10 @@ for device in unique_devices:
     # Plotting the time series
     plt.plot(device_data['Timestamp'], device_data['PowerStatus'], marker='o')
     
-    # Customize plot
+    # Customize plot with dynamic title
     plt.title(f'{device} Device Usage Over Time')
     plt.xlabel('Timestamp')
     plt.ylabel('PowerStatus')
     
     # Display the plot
     plt.show()
-
-
-
