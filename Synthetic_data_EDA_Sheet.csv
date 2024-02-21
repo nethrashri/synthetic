@@ -1,0 +1,352 @@
+DeviceName,Weather,Time,Timestamp,Activity,RoomName,PowerStatus,Week,UserId,Routines
+SmartBlinds,Partly Cloudy,6:00 AM,1612160000,Awaken,Bedroom,Open,Thursday,3434n3hjhdjfhjdy,Morning Routine
+Light,Partly Cloudy,6:00 AM,1612160000,Awaken,Bedroom,On,Thursday,3434n3hjhdjfhjdy,Morning Routine
+WaterHeater,Partly Cloudy,6:02 AM,1612164000,Bathing,Bathroom,On,Thursday,3434n3hjhdjfhjdy,Morning Routine
+Light,Partly Cloudy,6:02 AM,1612164000,Bathing,Bathroom,On,Thursday,3434n3hjhdjfhjdy,Morning Routine
+WaterHeater,Partly Cloudy,6:25 AM,1612245000,Getting Ready,Bathroom,Off,Thursday,3434n3hjhdjfhjdy,Morning Routine
+Light,Partly Cloudy,6:35 AM,1612310000,Getting Ready,Bathroom,Off,Thursday,3434n3hjhdjfhjdy,Morning Routine
+SmartBlinds,Partly Cloudy,6:35 AM,1612310000,Getting Ready,Bedroom,Close,Thursday,3434n3hjhdjfhjdy,Morning Routine
+Light,Partly Cloudy,6:35 AM,1612310000,Getting Ready,Bedroom,Off,Thursday,3434n3hjhdjfhjdy,Morning Routine
+SmartBlinds,Partly Cloudy,6:38 AM,1612318000,Walking,LivingRoom,Open,Thursday,3434n3hjhdjfhjdy,Morning Routine
+Coffee Maker,Partly Cloudy,6:40 AM,1612320000,Cooking,Kitchen,On,Thursday,3434n3hjhdjfhjdy,Morning Routine
+Light,Partly Cloudy,6:40 AM,1612320000,Cooking,Kitchen,On,Thursday,3434n3hjhdjfhjdy,Morning Routine
+Coffee Maker,Partly Cloudy,7:00 AM,1612400000,Cooking,Kitchen,Off,Thursday,3434n3hjhdjfhjdy,Morning Routine
+Light,Partly Cloudy,7:00 AM,1612400000,Cooking,Kitchen,Off,Thursday,3434n3hjhdjfhjdy,Morning Routine
+SmartBlinds,Partly Cloudy,7:05 AM,1612405000,Walking,LivingRoom,Close,Thursday,3434n3hjhdjfhjdy,Morning Routine
+SmartDoor,Partly Cloudy,7:15 AM,1612475000,Outdoor,LivingRoom,Lock,Thursday,3434n3hjhdjfhjdy,Morning Routine
+SmartDoor,Partly Cloudy,4:15 PM,1615115000,Outdoor,LivingRoom,Unlock,Thursday,3434n3hjhdjfhjdy,Evening Routine
+SmartBlinds,Partly Cloudy,4:15 PM,1615115000,Walking,LivingRoom,Open,Thursday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,4:15 PM,1615115000,Relaxing,LivingRoom,On,Thursday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,4:15 PM,1615115000,Refreshing,Bedroom,On,Thursday,3434n3hjhdjfhjdy,Evening Routine
+SmartBlinds,Partly Cloudy,4:20 PM,1615120000,Refreshing,Bedroom,Open,Thursday,3434n3hjhdjfhjdy,Evening Routine
+WaterHeater,Partly Cloudy,4:22 PM,1615122000,Refreshing,Bathroom,On,Thursday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,4:22 PM,1615122000,Refreshing,Bathroom,On,Thursday,3434n3hjhdjfhjdy,Evening Routine
+SmartBlinds,Partly Cloudy,4:38 PM,1615198000,Refreshing,Bedroom,Close,Thursday,3434n3hjhdjfhjdy,Evening Routine
+WaterHeater,Partly Cloudy,4:40 PM,1615200000,Refreshing,Bathroom,Off,Thursday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,4:40 PM,1615200000,Refreshing,Bathroom,Off,Thursday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,4:50 PM,1615260000,Refreshing,LivingRoom,Off,Thursday,3434n3hjhdjfhjdy,Evening Routine
+SmartTV,Partly Cloudy,4:52 PM,1615272000,WatchingTV,LivingRoom,On,Thursday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,5:00 PM,1615320000,Cooking,Kitchen,On,Thursday,3434n3hjhdjfhjdy,Evening Routine
+Coffee Maker,Partly Cloudy,5:00 PM,1615320000,Cooking,Kitchen,On,Thursday,3434n3hjhdjfhjdy,Evening Routine
+Coffee Maker,Partly Cloudy,5:05 PM,1615325000,Cooking,Kitchen,Off,Thursday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,6:00 PM,1615400000,Cooking,Kitchen,Off,Thursday,3434n3hjhdjfhjdy,Evening Routine
+SmartTV,Partly Cloudy,6:15 PM,1615475000,WatchingTV,LivingRoom,Off,Thursday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,6:15 PM,1615475000,Cooking,Kitchen,On,Thursday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,7:00 PM,1615520000,Cooking,Kitchen,Off,Thursday,3434n3hjhdjfhjdy,Evening Routine
+SmartTV,Partly Cloudy,7:02 PM,1615522000,WatchingTV,LivingRoom,On,Thursday,3434n3hjhdjfhjdy,Night Routine
+SmartTV,Partly Cloudy,7:30 PM,1615580000,WatchingTV,LivingRoom,Off,Thursday,3434n3hjhdjfhjdy,Night Routine
+Light,Partly Cloudy,7:30 PM,1615580000,Walking,LivingRoom,Off,Thursday,3434n3hjhdjfhjdy,Night Routine
+Light,Partly Cloudy,7:32 PM,1615582000,Reading,Bedroom,On,Thursday,3434n3hjhdjfhjdy,Night Routine
+Light,Partly Cloudy,7:32 PM,1615582000,Refreshing,Bathroom,On,Thursday,3434n3hjhdjfhjdy,Night Routine
+Light,Partly Cloudy,7:40 PM,1615640000,Refreshing,Bathroom,Off,Thursday,3434n3hjhdjfhjdy,Night Routine
+Light,Partly Cloudy,8:30 PM,1615820000,Sleeping,Bedroom,Off,Thursday,3434n3hjhdjfhjdy,Night Routine
+SmartBlinds,Partly Cloudy,6:00 AM,1706833800000,Awaken,Bedroom,Open,Friday,3434n3hjhdjfhjdy,Morning Routine
+Light,Partly Cloudy,6:00 AM,1706833800000,Awaken,Bedroom,On,Friday,3434n3hjhdjfhjdy,Morning Routine
+WaterHeater,Partly Cloudy,6:02 AM,1706833920000,Bathing,Bathroom,On,Friday,3434n3hjhdjfhjdy,Morning Routine
+Light,Partly Cloudy,6:02 AM,1706833920000,Bathing,Bathroom,On,Friday,3434n3hjhdjfhjdy,Morning Routine
+WaterHeater,Partly Cloudy,6:25 AM,1706835300000,Getting Ready,Bathroom,Off,Friday,3434n3hjhdjfhjdy,Morning Routine
+Light,Partly Cloudy,6:35 AM,1706835900000,Getting Ready,Bathroom,Off,Friday,3434n3hjhdjfhjdy,Morning Routine
+SmartBlinds,Partly Cloudy,6:35 AM,1706835900000,Getting Ready,Bedroom,Close,Friday,3434n3hjhdjfhjdy,Morning Routine
+Light,Partly Cloudy,6:35 AM,1706835900000,Getting Ready,Bedroom,Off,Friday,3434n3hjhdjfhjdy,Morning Routine
+SmartBlinds,Partly Cloudy,6:38 AM,1706836080000,Walking,LivingRoom,Open,Friday,3434n3hjhdjfhjdy,Morning Routine
+Coffee Maker,Partly Cloudy,6:40 AM,1706836200000,Cooking,Kitchen,On,Friday,3434n3hjhdjfhjdy,Morning Routine
+Light,Partly Cloudy,6:40 AM,1706836200000,Cooking,Kitchen,On,Friday,3434n3hjhdjfhjdy,Morning Routine
+Coffee Maker,Partly Cloudy,7:00 AM,1706837400000,Cooking,Kitchen,Off,Friday,3434n3hjhdjfhjdy,Morning Routine
+Light,Partly Cloudy,7:00 AM,1706837400000,Cooking,Kitchen,Off,Friday,3434n3hjhdjfhjdy,Morning Routine
+SmartBlinds,Partly Cloudy,7:05 AM,1706837700000,Walking,LivingRoom,Close,Friday,3434n3hjhdjfhjdy,Morning Routine
+SmartDoor,Partly Cloudy,7:15 AM,1706838300000,Outdoor,LivingRoom,Lock,Friday,3434n3hjhdjfhjdy,Morning Routine
+SmartDoor,Partly Cloudy,4:15 PM,1706870700000,Outdoor,LivingRoom,Unlock,Friday,3434n3hjhdjfhjdy,Evening Routine
+SmartBlinds,Partly Cloudy,4:15 PM,1706870700000,Walking,LivingRoom,Open,Friday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,4:15 PM,1706870700000,Relaxing,LivingRoom,On,Friday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,4:15 PM,1706870700000,Refreshing,Bedroom,On,Friday,3434n3hjhdjfhjdy,Evening Routine
+SmartBlinds,Partly Cloudy,4:20 PM,1706871000000,Refreshing,Bedroom,Open,Friday,3434n3hjhdjfhjdy,Evening Routine
+WaterHeater,Partly Cloudy,4:22 PM,1706871120000,Refreshing,Bathroom,On,Friday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,4:22 PM,1706871120000,Refreshing,Bathroom,On,Friday,3434n3hjhdjfhjdy,Evening Routine
+SmartBlinds,Partly Cloudy,4:38 PM,1706872080000,Refreshing,Bedroom,Close,Friday,3434n3hjhdjfhjdy,Evening Routine
+WaterHeater,Partly Cloudy,4:40 PM,1706872200000,Refreshing,Bathroom,Off,Friday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,4:40 PM,1706872200000,Refreshing,Bathroom,Off,Friday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,4:50 PM,1706872800000,Refreshing,LivingRoom,Off,Friday,3434n3hjhdjfhjdy,Evening Routine
+SmartTV,Partly Cloudy,4:52 PM,1706872920000,WatchingTV,LivingRoom,On,Friday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,5:00 PM,1706873400000,Cooking,Kitchen,On,Friday,3434n3hjhdjfhjdy,Evening Routine
+Coffee Maker,Partly Cloudy,5:00 PM,1706873400000,Cooking,Kitchen,On,Friday,3434n3hjhdjfhjdy,Evening Routine
+Coffee Maker,Partly Cloudy,5:05 PM,1706873700000,Cooking,Kitchen,Off,Friday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,6:00 PM,1706877000000,Cooking,Kitchen,Off,Friday,3434n3hjhdjfhjdy,Evening Routine
+SmartTV,Partly Cloudy,6:15 PM,1706877900000,WatchingTV,LivingRoom,Off,Friday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,6:15 PM,1706877900000,Cooking,Kitchen,On,Friday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,7:00 PM,1706880600000,Cooking,Kitchen,Off,Friday,3434n3hjhdjfhjdy,Evening Routine
+SmartTV,Partly Cloudy,7:02 PM,1706880720000,WatchingTV,LivingRoom,On,Friday,3434n3hjhdjfhjdy,Night Routine
+SmartTV,Partly Cloudy,7:30 PM,1706882400000,WatchingTV,LivingRoom,Off,Friday,3434n3hjhdjfhjdy,Night Routine
+Light,Partly Cloudy,7:30 PM,1706882400000,Walking,LivingRoom,Off,Friday,3434n3hjhdjfhjdy,Night Routine
+Light,Partly Cloudy,7:32 PM,1706882520000,Reading,Bedroom,On,Friday,3434n3hjhdjfhjdy,Night Routine
+Light,Partly Cloudy,7:32 PM,1706882520000,Refreshing,Bathroom,On,Friday,3434n3hjhdjfhjdy,Night Routine
+Light,Partly Cloudy,7:40 PM,1706883000000,Refreshing,Bathroom,Off,Friday,3434n3hjhdjfhjdy,Night Routine
+Light,Partly Cloudy,8:30 PM,1706886000000,Sleeping,Bedroom,Off,Friday,3434n3hjhdjfhjdy,Night Routine
+SmartBlinds,Cloudy,8:00 AM,1706927400000,Awaken,Bedroom,Open,Saturday,3434n3hjhdjfhjdy,Morning Routine
+Light,Cloudy,8:00 AM,1706927400000,Awaken,Bedroom,On,Saturday,3434n3hjhdjfhjdy,Morning Routine
+WaterHeater,Cloudy,8:05 AM,1706927700000,Bathing,Bathroom,On,Saturday,3434n3hjhdjfhjdy,Morning Routine
+Light,Cloudy,8:05 AM,1706927700000,Bathing,Bathroom,On,Saturday,3434n3hjhdjfhjdy,Morning Routine
+WaterHeater,Cloudy,9:00 AM,1706931000000,Bathing,Bathroom,Off,Saturday,3434n3hjhdjfhjdy,Morning Routine
+Light,Cloudy,9:00 AM,1706931000000,Bathing,Bathroom,Off,Saturday,3434n3hjhdjfhjdy,Morning Routine
+SmartBlinds,Cloudy,9:40 AM,1706933400000,Awaken,Bedroom,Close,Saturday,3434n3hjhdjfhjdy,Morning Routine
+SmartBlinds,Cloudy,9:42 AM,1706933520000,Walking,LivingRoom,Open,Saturday,3434n3hjhdjfhjdy,Morning Routine
+Coffee Maker,Cloudy,9:42 AM,1706933520000,Cooking,Kitchen,On,Saturday,3434n3hjhdjfhjdy,Morning Routine
+Light,Cloudy,9:42 AM,1706933520000,Cooking,Kitchen,On,Saturday,3434n3hjhdjfhjdy,Morning Routine
+Coffee Maker,Cloudy,9:48 AM,1706933880000,Cooking,Kitchen,Off,Saturday,3434n3hjhdjfhjdy,Morning Routine
+Light,Cloudy,10:30 AM,1706936400000,Cooking,Kitchen,Off,Saturday,3434n3hjhdjfhjdy,Morning Routine
+SmartBlinds,Cloudy,10:30 AM,1706936400000,Walking,LivingRoom,Close,Saturday,3434n3hjhdjfhjdy,Morning Routine
+SmartTV,Rainy,10:30 AM,1706936400000,Watching TV,LivingRoom,On,Saturday,3434n3hjhdjfhjdy,Morning Routine
+SmartTV,Rainy,12:00 PM,1706941800000,Watching TV,LivingRoom,Off,Saturday,3434n3hjhdjfhjdy,Afternoon Routine
+Light,Rainy,12:00 PM,1706941800000,Cooking,Kitchen,On,Saturday,3434n3hjhdjfhjdy,Afternoon Routine
+Light,Rainy,12:40 PM,1706944200000,Cooking,Kitchen,Off,Saturday,3434n3hjhdjfhjdy,Afternoon Routine
+SmartTV,Rainy,12:40 PM,1706944200000,Watching TV,LivingRoom,On,Saturday,3434n3hjhdjfhjdy,Afternoon Routine
+SmartTV,Rainy,3:00 PM,1706952600000,Watching TV,LivingRoom,Off,Saturday,3434n3hjhdjfhjdy,Evening Routine
+SmartDoor,Partly Cloudy,3:00 PM,1706952600000,Outdoor,LivingRoom,Lock,Saturday,3434n3hjhdjfhjdy,Evening Routine
+SmartDoor,Partly Cloudy,9:00 PM,1706974200000,Outdoor,LivingRoom,Unlock,Saturday,3434n3hjhdjfhjdy,Night Routine
+Light,Partly Cloudy,9:02 PM,1706974320000,Walking,LivingRoom,On,Saturday,3434n3hjhdjfhjdy,Night Routine
+Light,Snow,9:02 PM,1706974320000,Cooking,Kitchen,On,Saturday,3434n3hjhdjfhjdy,Night Routine
+Light,Snow,9:30 PM,1706976000000,Walking,LivingRoom,Off,Saturday,3434n3hjhdjfhjdy,Night Routine
+Light,Snow,9:30 PM,1706976000000,Relaxing,Bedroom,On,Saturday,3434n3hjhdjfhjdy,Night Routine
+SmartBlinds,Snow,9:30 PM,1706976000000,Relaxing,Bedroom,Open,Saturday,3434n3hjhdjfhjdy,Night Routine
+Light,Snow,9:40 PM,1706976600000,Bathing,Bathroom,On,Saturday,3434n3hjhdjfhjdy,Night Routine
+WaterHeater,Snow,9:40 PM,1706976600000,Bathing,Bathroom,On,Saturday,3434n3hjhdjfhjdy,Night Routine
+Light,Snow,10:00 PM,1706977800000,Bathing,Bathroom,Off,Saturday,3434n3hjhdjfhjdy,Night Routine
+WaterHeater,Snow,10:00 PM,1706977800000,Bathing,Bathroom,Off,Saturday,3434n3hjhdjfhjdy,Night Routine
+SmartBlinds,Snow,9:30 PM,1706976000000,Reading,Bedroom,Close,Saturday,3434n3hjhdjfhjdy,Night Routine
+Light,Snow,11:20 PM,1706982600000,Sleeping,Bedroom,Off,Saturday,3434n3hjhdjfhjdy,Night Routine
+SmartBlinds,Cloudy,8:00 AM,1707013800000,Awaken,Bedroom,Open,Sunday,3434n3hjhdjfhjdy,Morning Routine
+Light,Cloudy,8:00 AM,1707013800000,Awaken,Bedroom,On,Sunday,3434n3hjhdjfhjdy,Morning Routine
+WaterHeater,Cloudy,8:05 AM,1707014100000,Bathing,Bathroom,On,Sunday,3434n3hjhdjfhjdy,Morning Routine
+Light,Cloudy,8:05 AM,1707014100000,Bathing,Bathroom,On,Sunday,3434n3hjhdjfhjdy,Morning Routine
+WaterHeater,Cloudy,9:00 AM,1707017400000,Bathing,Bathroom,Off,Sunday,3434n3hjhdjfhjdy,Morning Routine
+Light,Cloudy,9:00 AM,1707017400000,Bathing,Bathroom,Off,Sunday,3434n3hjhdjfhjdy,Morning Routine
+SmartBlinds,Cloudy,9:40 AM,1707019800000,Awaken,Bedroom,Close,Sunday,3434n3hjhdjfhjdy,Morning Routine
+SmartBlinds,Cloudy,9:42 AM,1707019920000,Walking,LivingRoom,Open,Sunday,3434n3hjhdjfhjdy,Morning Routine
+Coffee Maker,Cloudy,9:42 AM,1707019920000,Cooking,Kitchen,On,Sunday,3434n3hjhdjfhjdy,Morning Routine
+Light,Cloudy,9:42 AM,1707019920000,Cooking,Kitchen,On,Sunday,3434n3hjhdjfhjdy,Morning Routine
+Coffee Maker,Cloudy,9:48 AM,1707020280000,Cooking,Kitchen,Off,Sunday,3434n3hjhdjfhjdy,Morning Routine
+Light,Cloudy,10:30 AM,1707022800000,Cooking,Kitchen,Off,Sunday,3434n3hjhdjfhjdy,Morning Routine
+SmartBlinds,Cloudy,10:30 AM,1707022800000,Walking,LivingRoom,Close,Sunday,3434n3hjhdjfhjdy,Morning Routine
+SmartTV,Rainy,10:30 AM,1707022800000,Watching TV,LivingRoom,On,Sunday,3434n3hjhdjfhjdy,Morning Routine
+SmartTV,Rainy,12:00 PM,1707028200000,Watching TV,LivingRoom,Off,Sunday,3434n3hjhdjfhjdy,Afternoon Routine
+Light,Rainy,12:00 PM,1707028200000,Cooking,Kitchen,On,Sunday,3434n3hjhdjfhjdy,Afternoon Routine
+Light,Rainy,12:40 PM,1707030600000,Cooking,Kitchen,Off,Sunday,3434n3hjhdjfhjdy,Afternoon Routine
+SmartTV,Rainy,12:40 PM,1707030600000,Watching TV,LivingRoom,On,Sunday,3434n3hjhdjfhjdy,Afternoon Routine
+SmartTV,Rainy,3:00 PM,1707039000000,Watching TV,LivingRoom,Off,Sunday,3434n3hjhdjfhjdy,Evening Routine
+SmartDoor,Partly Cloudy,3:00 PM,1707039000000,Outdoor,LivingRoom,Lock,Sunday,3434n3hjhdjfhjdy,Evening Routine
+SmartDoor,Partly Cloudy,11:00 PM,1707067800000,Outdoor,LivingRoom,Unlock,Sunday,3434n3hjhdjfhjdy,Night Routine
+Light,Partly Cloudy,11:00 PM,1707067800000,Walking,LivingRoom,On,Sunday,3434n3hjhdjfhjdy,Night Routine
+Light,Cloudy,11:10 PM,1707068400000,Cooking,Kitchen,On,Sunday,3434n3hjhdjfhjdy,Night Routine
+Light,Cloudy,11:20 PM,1707069000000,Walking,LivingRoom,Off,Sunday,3434n3hjhdjfhjdy,Night Routine
+Light,Cloudy,11:30 PM,1707069600000,Relaxing,Bedroom,On,Sunday,3434n3hjhdjfhjdy,Night Routine
+SmartBlinds,Cloudy,11:30 PM,1707069600000,Relaxing,Bedroom,Open,Sunday,3434n3hjhdjfhjdy,Night Routine
+Light,Cloudy,11:30 PM,1707069600000,Bathing,Bathroom,On,Sunday,3434n3hjhdjfhjdy,Night Routine
+WaterHeater,Cloudy,11:30 PM,1707069600000,Bathing,Bathroom,On,Sunday,3434n3hjhdjfhjdy,Night Routine
+Light,Cloudy,12:10 AM,1706985600000,Bathing,Bathroom,Off,Sunday,3434n3hjhdjfhjdy,Late Night Routine
+WaterHeater,Cloudy,12:10 AM,1706985600000,Bathing,Bathroom,Off,Sunday,3434n3hjhdjfhjdy,Late Night Routine
+SmartBlinds,Cloudy,12:10 AM,1706985600000,Reading,Bedroom,Close,Sunday,3434n3hjhdjfhjdy,Late Night Routine
+Light,Cloudy,12:40 AM,1706987400000,Sleeping,Bedroom,Off,Sunday,3434n3hjhdjfhjdy,Late Night Routine
+SmartBlinds,Partly Cloudy,6:00 AM,1707093000000,Awaken,Bedroom,Open,Monday,3434n3hjhdjfhjdy,Morning Routine
+Light,Partly Cloudy,6:00 AM,1707093000000,Awaken,Bedroom,On,Monday,3434n3hjhdjfhjdy,Morning Routine
+WaterHeater,Partly Cloudy,6:02 AM,1707093120000,Bathing,Bathroom,On,Monday,3434n3hjhdjfhjdy,Morning Routine
+Light,Partly Cloudy,6:02 AM,1707093120000,Bathing,Bathroom,On,Monday,3434n3hjhdjfhjdy,Morning Routine
+WaterHeater,Partly Cloudy,6:25 AM,1707094500000,Getting Ready,Bathroom,Off,Monday,3434n3hjhdjfhjdy,Morning Routine
+Light,Partly Cloudy,6:35 AM,1707095100000,Getting Ready,Bathroom,Off,Monday,3434n3hjhdjfhjdy,Morning Routine
+SmartBlinds,Partly Cloudy,6:35 AM,1707095100000,Getting Ready,Bedroom,Close,Monday,3434n3hjhdjfhjdy,Morning Routine
+Light,Partly Cloudy,6:35 AM,1707095100000,Getting Ready,Bedroom,Off,Monday,3434n3hjhdjfhjdy,Morning Routine
+SmartBlinds,Partly Cloudy,6:38 AM,1707095280000,Walking,LivingRoom,Open,Monday,3434n3hjhdjfhjdy,Morning Routine
+Coffee Maker,Partly Cloudy,6:40 AM,1707095400000,Cooking,Kitchen,On,Monday,3434n3hjhdjfhjdy,Morning Routine
+Light,Partly Cloudy,6:40 AM,1707095400000,Cooking,Kitchen,On,Monday,3434n3hjhdjfhjdy,Morning Routine
+Coffee Maker,Partly Cloudy,7:00 AM,1707096600000,Cooking,Kitchen,Off,Monday,3434n3hjhdjfhjdy,Morning Routine
+Light,Partly Cloudy,7:00 AM,1707096600000,Cooking,Kitchen,Off,Monday,3434n3hjhdjfhjdy,Morning Routine
+SmartBlinds,Partly Cloudy,7:05 AM,1707096900000,Walking,LivingRoom,Close,Monday,3434n3hjhdjfhjdy,Morning Routine
+SmartDoor,Partly Cloudy,7:15 AM,1707097500000,Outdoor,LivingRoom,Lock,Monday,3434n3hjhdjfhjdy,Morning Routine
+SmartDoor,Partly Cloudy,4:15 PM,1707129900000,Outdoor,LivingRoom,Unlock,Monday,3434n3hjhdjfhjdy,Evening Routine
+SmartBlinds,Partly Cloudy,4:15 PM,1707129900000,Walking,LivingRoom,Open,Monday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,4:15 PM,1707129900000,Relaxing,LivingRoom,On,Monday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,4:15 PM,1707129900000,Refreshing,Bedroom,On,Monday,3434n3hjhdjfhjdy,Evening Routine
+SmartBlinds,Partly Cloudy,4:20 PM,1707130200000,Refreshing,Bedroom,Open,Monday,3434n3hjhdjfhjdy,Evening Routine
+WaterHeater,Partly Cloudy,4:22 PM,1707130320000,Refreshing,Bathroom,On,Monday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,4:22 PM,1707130320000,Refreshing,Bathroom,On,Monday,3434n3hjhdjfhjdy,Evening Routine
+SmartBlinds,Partly Cloudy,4:38 PM,1707131280000,Refreshing,Bedroom,Close,Monday,3434n3hjhdjfhjdy,Evening Routine
+WaterHeater,Partly Cloudy,4:40 PM,1707131400000,Refreshing,Bathroom,Off,Monday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,4:40 PM,1707131400000,Refreshing,Bathroom,Off,Monday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,4:50 PM,1707132000000,Refreshing,LivingRoom,Off,Monday,3434n3hjhdjfhjdy,Evening Routine
+SmartTV,Partly Cloudy,4:52 PM,1707132120000,WatchingTV,LivingRoom,On,Monday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,5:00 PM,1707132600000,Cooking,Kitchen,On,Monday,3434n3hjhdjfhjdy,Evening Routine
+Coffee Maker,Partly Cloudy,5:00 PM,1707132600000,Cooking,Kitchen,On,Monday,3434n3hjhdjfhjdy,Evening Routine
+Coffee Maker,Partly Cloudy,5:05 PM,1707132900000,Cooking,Kitchen,Off,Monday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,6:00 PM,1707136200000,Cooking,Kitchen,Off,Monday,3434n3hjhdjfhjdy,Evening Routine
+SmartTV,Partly Cloudy,6:15 PM,1707137100000,WatchingTV,LivingRoom,Off,Monday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,6:15 PM,1707137100000,Cooking,Kitchen,On,Monday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,7:00 PM,1707139800000,Cooking,Kitchen,Off,Monday,3434n3hjhdjfhjdy,Evening Routine
+SmartTV,Partly Cloudy,7:02 PM,1707139920000,WatchingTV,LivingRoom,On,Monday,3434n3hjhdjfhjdy,Night Routine
+SmartTV,Partly Cloudy,7:30 PM,1707141600000,WatchingTV,LivingRoom,Off,Monday,3434n3hjhdjfhjdy,Night Routine
+Light,Partly Cloudy,7:30 PM,1707141600000,Walking,LivingRoom,Off,Monday,3434n3hjhdjfhjdy,Night Routine
+Light,Partly Cloudy,7:32 PM,1707141720000,Reading,Bedroom,On,Monday,3434n3hjhdjfhjdy,Night Routine
+Light,Partly Cloudy,7:32 PM,1707141720000,Refreshing,Bathroom,On,Monday,3434n3hjhdjfhjdy,Night Routine
+Light,Partly Cloudy,7:40 PM,1707142200000,Refreshing,Bathroom,Off,Monday,3434n3hjhdjfhjdy,Night Routine
+Light,Partly Cloudy,8:30 PM,1707145200000,Sleeping,Bedroom,Off,Monday,3434n3hjhdjfhjdy,Night Routine
+SmartBlinds,Partly Cloudy,6:00 AM,1707179400000,Awaken,Bedroom,Open,Tuesday,3434n3hjhdjfhjdy,Morning Routine
+Light,Partly Cloudy,6:00 AM,1707179400000,Awaken,Bedroom,On,Tuesday,3434n3hjhdjfhjdy,Morning Routine
+WaterHeater,Partly Cloudy,6:02 AM,1707179520000,Bathing,Bathroom,On,Tuesday,3434n3hjhdjfhjdy,Morning Routine
+Light,Partly Cloudy,6:02 AM,1707179520000,Bathing,Bathroom,On,Tuesday,3434n3hjhdjfhjdy,Morning Routine
+WaterHeater,Partly Cloudy,6:25 AM,1707180900000,Getting Ready,Bathroom,Off,Tuesday,3434n3hjhdjfhjdy,Morning Routine
+Light,Partly Cloudy,6:35 AM,1707181500000,Getting Ready,Bathroom,Off,Tuesday,3434n3hjhdjfhjdy,Morning Routine
+SmartBlinds,Partly Cloudy,6:35 AM,1707181500000,Getting Ready,Bedroom,Close,Tuesday,3434n3hjhdjfhjdy,Morning Routine
+Light,Partly Cloudy,6:35 AM,1707181500000,Getting Ready,Bedroom,Off,Tuesday,3434n3hjhdjfhjdy,Morning Routine
+SmartBlinds,Partly Cloudy,6:38 AM,1707181680000,Walking,LivingRoom,Open,Tuesday,3434n3hjhdjfhjdy,Morning Routine
+Coffee Maker,Partly Cloudy,6:40 AM,1707181800000,Cooking,Kitchen,On,Tuesday,3434n3hjhdjfhjdy,Morning Routine
+Light,Partly Cloudy,6:40 AM,1707181800000,Cooking,Kitchen,On,Tuesday,3434n3hjhdjfhjdy,Morning Routine
+Coffee Maker,Partly Cloudy,7:00 AM,1707183000000,Cooking,Kitchen,Off,Tuesday,3434n3hjhdjfhjdy,Morning Routine
+Light,Partly Cloudy,7:00 AM,1707183000000,Cooking,Kitchen,Off,Tuesday,3434n3hjhdjfhjdy,Morning Routine
+SmartBlinds,Partly Cloudy,7:05 AM,1707183300000,Walking,LivingRoom,Close,Tuesday,3434n3hjhdjfhjdy,Morning Routine
+SmartDoor,Partly Cloudy,7:15 AM,1707183900000,Outdoor,LivingRoom,Lock,Tuesday,3434n3hjhdjfhjdy,Morning Routine
+SmartDoor,Partly Cloudy,4:15 PM,1707216300000,Outdoor,LivingRoom,Unlock,Tuesday,3434n3hjhdjfhjdy,Evening Routine
+SmartBlinds,Partly Cloudy,4:15 PM,1707216300000,Walking,LivingRoom,Open,Tuesday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,4:15 PM,1707216300000,Relaxing,LivingRoom,On,Tuesday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,4:15 PM,1707216300000,Refreshing,Bedroom,On,Tuesday,3434n3hjhdjfhjdy,Evening Routine
+SmartBlinds,Partly Cloudy,4:20 PM,1707216600000,Refreshing,Bedroom,Open,Tuesday,3434n3hjhdjfhjdy,Evening Routine
+WaterHeater,Partly Cloudy,4:22 PM,1707216720000,Refreshing,Bathroom,On,Tuesday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,4:22 PM,1707216720000,Refreshing,Bathroom,On,Tuesday,3434n3hjhdjfhjdy,Evening Routine
+SmartBlinds,Partly Cloudy,4:38 PM,1707217680000,Refreshing,Bedroom,Close,Tuesday,3434n3hjhdjfhjdy,Evening Routine
+WaterHeater,Partly Cloudy,4:40 PM,1707217800000,Refreshing,Bathroom,Off,Tuesday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,4:40 PM,1707217800000,Refreshing,Bathroom,Off,Tuesday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,4:50 PM,1707218400000,Refreshing,LivingRoom,Off,Tuesday,3434n3hjhdjfhjdy,Evening Routine
+SmartTV,Partly Cloudy,4:52 PM,1707218520000,WatchingTV,LivingRoom,On,Tuesday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,5:00 PM,1707219000000,Cooking,Kitchen,On,Tuesday,3434n3hjhdjfhjdy,Evening Routine
+Coffee Maker,Partly Cloudy,5:00 PM,1707219000000,Cooking,Kitchen,On,Tuesday,3434n3hjhdjfhjdy,Evening Routine
+Coffee Maker,Partly Cloudy,5:05 PM,1707219300000,Cooking,Kitchen,Off,Tuesday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,6:00 PM,1707222600000,Cooking,Kitchen,Off,Tuesday,3434n3hjhdjfhjdy,Evening Routine
+SmartTV,Partly Cloudy,6:15 PM,1707223500000,WatchingTV,LivingRoom,Off,Tuesday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,6:15 PM,1707223500000,Cooking,Kitchen,On,Tuesday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,7:00 PM,1707226200000,Cooking,Kitchen,Off,Tuesday,3434n3hjhdjfhjdy,Evening Routine
+SmartTV,Partly Cloudy,7:02 PM,1707226320000,WatchingTV,LivingRoom,On,Tuesday,3434n3hjhdjfhjdy,Night Routine
+SmartTV,Partly Cloudy,7:30 PM,1707228000000,WatchingTV,LivingRoom,Off,Tuesday,3434n3hjhdjfhjdy,Night Routine
+Light,Partly Cloudy,7:30 PM,1707228000000,Walking,LivingRoom,Off,Tuesday,3434n3hjhdjfhjdy,Night Routine
+Light,Partly Cloudy,7:32 PM,1707228120000,Reading,Bedroom,On,Tuesday,3434n3hjhdjfhjdy,Night Routine
+Light,Partly Cloudy,7:32 PM,1707228120000,Refreshing,Bathroom,On,Tuesday,3434n3hjhdjfhjdy,Night Routine
+Light,Partly Cloudy,7:40 PM,1707228600000,Refreshing,Bathroom,Off,Tuesday,3434n3hjhdjfhjdy,Night Routine
+Light,Partly Cloudy,8:30 PM,1707231600000,Sleeping,Bedroom,Off,Tuesday,3434n3hjhdjfhjdy,Night Routine
+SmartBlinds,Partly Cloudy,6:00 AM,1707265800000,Awaken,Bedroom,Open,Wednesday,3434n3hjhdjfhjdy,Morning Routine
+Light,Partly Cloudy,6:00 AM,1707265800000,Awaken,Bedroom,On,Wednesday,3434n3hjhdjfhjdy,Morning Routine
+WaterHeater,Partly Cloudy,6:02 AM,1707265920000,Bathing,Bathroom,On,Wednesday,3434n3hjhdjfhjdy,Morning Routine
+Light,Partly Cloudy,6:02 AM,1707265920000,Bathing,Bathroom,On,Wednesday,3434n3hjhdjfhjdy,Morning Routine
+WaterHeater,Partly Cloudy,6:25 AM,1707267300000,Getting Ready,Bathroom,Off,Wednesday,3434n3hjhdjfhjdy,Morning Routine
+Light,Partly Cloudy,6:35 AM,1707267900000,Getting Ready,Bathroom,Off,Wednesday,3434n3hjhdjfhjdy,Morning Routine
+SmartBlinds,Partly Cloudy,6:35 AM,1707267900000,Getting Ready,Bedroom,Close,Wednesday,3434n3hjhdjfhjdy,Morning Routine
+Light,Partly Cloudy,6:35 AM,1707267900000,Getting Ready,Bedroom,Off,Wednesday,3434n3hjhdjfhjdy,Morning Routine
+SmartBlinds,Partly Cloudy,6:38 AM,1707268080000,Walking,LivingRoom,Open,Wednesday,3434n3hjhdjfhjdy,Morning Routine
+Coffee Maker,Partly Cloudy,6:40 AM,1707268200000,Cooking,Kitchen,On,Wednesday,3434n3hjhdjfhjdy,Morning Routine
+Light,Partly Cloudy,6:40 AM,1707268200000,Cooking,Kitchen,On,Wednesday,3434n3hjhdjfhjdy,Morning Routine
+Coffee Maker,Partly Cloudy,7:00 AM,1707269400000,Cooking,Kitchen,Off,Wednesday,3434n3hjhdjfhjdy,Morning Routine
+Light,Partly Cloudy,7:00 AM,1707269400000,Cooking,Kitchen,Off,Wednesday,3434n3hjhdjfhjdy,Morning Routine
+SmartBlinds,Partly Cloudy,7:05 AM,1707269700000,Walking,LivingRoom,Close,Wednesday,3434n3hjhdjfhjdy,Morning Routine
+SmartDoor,Partly Cloudy,7:15 AM,1707270300000,Outdoor,LivingRoom,Lock,Wednesday,3434n3hjhdjfhjdy,Morning Routine
+SmartDoor,Partly Cloudy,4:15 PM,1707302700000,Outdoor,LivingRoom,Unlock,Wednesday,3434n3hjhdjfhjdy,Evening Routine
+SmartBlinds,Partly Cloudy,4:15 PM,1707302700000,Walking,LivingRoom,Open,Wednesday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,4:15 PM,1707302700000,Relaxing,LivingRoom,On,Wednesday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,4:15 PM,1707302700000,Refreshing,Bedroom,On,Wednesday,3434n3hjhdjfhjdy,Evening Routine
+SmartBlinds,Partly Cloudy,4:20 PM,1707303000000,Refreshing,Bedroom,Open,Wednesday,3434n3hjhdjfhjdy,Evening Routine
+WaterHeater,Partly Cloudy,4:22 PM,1707303120000,Refreshing,Bathroom,On,Wednesday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,4:22 PM,1707303120000,Refreshing,Bathroom,On,Wednesday,3434n3hjhdjfhjdy,Evening Routine
+SmartBlinds,Partly Cloudy,4:38 PM,1707304080000,Refreshing,Bedroom,Close,Wednesday,3434n3hjhdjfhjdy,Evening Routine
+WaterHeater,Partly Cloudy,4:40 PM,1707304200000,Refreshing,Bathroom,Off,Wednesday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,4:40 PM,1707304200000,Refreshing,Bathroom,Off,Wednesday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,4:50 PM,1707304800000,Refreshing,LivingRoom,Off,Wednesday,3434n3hjhdjfhjdy,Evening Routine
+SmartTV,Partly Cloudy,4:52 PM,1707304920000,WatchingTV,LivingRoom,On,Wednesday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,5:00 PM,1707305400000,Cooking,Kitchen,On,Wednesday,3434n3hjhdjfhjdy,Evening Routine
+Coffee Maker,Partly Cloudy,5:00 PM,1707305400000,Cooking,Kitchen,On,Wednesday,3434n3hjhdjfhjdy,Evening Routine
+Coffee Maker,Partly Cloudy,5:05 PM,1707305700000,Cooking,Kitchen,Off,Wednesday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,6:00 PM,1707309000000,Cooking,Kitchen,Off,Wednesday,3434n3hjhdjfhjdy,Evening Routine
+SmartTV,Partly Cloudy,6:15 PM,1707309900000,WatchingTV,LivingRoom,Off,Wednesday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,6:15 PM,1707309900000,Cooking,Kitchen,On,Wednesday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,7:00 PM,1707312600000,Cooking,Kitchen,Off,Wednesday,3434n3hjhdjfhjdy,Evening Routine
+SmartTV,Partly Cloudy,7:02 PM,1707312720000,WatchingTV,LivingRoom,On,Wednesday,3434n3hjhdjfhjdy,Night Routine
+SmartTV,Partly Cloudy,7:30 PM,1707314400000,WatchingTV,LivingRoom,Off,Wednesday,3434n3hjhdjfhjdy,Night Routine
+Light,Partly Cloudy,7:30 PM,1707314400000,Walking,LivingRoom,Off,Wednesday,3434n3hjhdjfhjdy,Night Routine
+Light,Partly Cloudy,7:32 PM,1707314520000,Reading,Bedroom,On,Wednesday,3434n3hjhdjfhjdy,Night Routine
+Light,Partly Cloudy,7:32 PM,1707314520000,Refreshing,Bathroom,On,Wednesday,3434n3hjhdjfhjdy,Night Routine
+Light,Partly Cloudy,7:40 PM,1707315000000,Refreshing,Bathroom,Off,Wednesday,3434n3hjhdjfhjdy,Night Routine
+Light,Partly Cloudy,8:30 PM,1707318000000,Sleeping,Bedroom,Off,Wednesday,3434n3hjhdjfhjdy,Night Routine
+SmartBlinds,Partly Cloudy,6:00 AM,1707352200000,Awaken,Bedroom,Open,Thursday,3434n3hjhdjfhjdy,Morning Routine
+Light,Partly Cloudy,6:00 AM,1707352200000,Awaken,Bedroom,On,Thursday,3434n3hjhdjfhjdy,Morning Routine
+WaterHeater,Partly Cloudy,6:02 AM,1707352320000,Bathing,Bathroom,On,Thursday,3434n3hjhdjfhjdy,Morning Routine
+Light,Partly Cloudy,6:02 AM,1707352320000,Bathing,Bathroom,On,Thursday,3434n3hjhdjfhjdy,Morning Routine
+WaterHeater,Partly Cloudy,6:25 AM,1707353700000,Getting Ready,Bathroom,Off,Thursday,3434n3hjhdjfhjdy,Morning Routine
+Light,Partly Cloudy,6:35 AM,1707354300000,Getting Ready,Bathroom,Off,Thursday,3434n3hjhdjfhjdy,Morning Routine
+SmartBlinds,Partly Cloudy,6:35 AM,1707354300000,Getting Ready,Bedroom,Close,Thursday,3434n3hjhdjfhjdy,Morning Routine
+Light,Partly Cloudy,6:35 AM,1707354300000,Getting Ready,Bedroom,Off,Thursday,3434n3hjhdjfhjdy,Morning Routine
+SmartBlinds,Partly Cloudy,6:38 AM,1707354480000,Walking,LivingRoom,Open,Thursday,3434n3hjhdjfhjdy,Morning Routine
+Coffee Maker,Partly Cloudy,6:40 AM,1707354600000,Cooking,Kitchen,On,Thursday,3434n3hjhdjfhjdy,Morning Routine
+Light,Partly Cloudy,6:40 AM,1707354600000,Cooking,Kitchen,On,Thursday,3434n3hjhdjfhjdy,Morning Routine
+Coffee Maker,Partly Cloudy,7:00 AM,1707355800000,Cooking,Kitchen,Off,Thursday,3434n3hjhdjfhjdy,Morning Routine
+Light,Partly Cloudy,7:00 AM,1707355800000,Cooking,Kitchen,Off,Thursday,3434n3hjhdjfhjdy,Morning Routine
+SmartBlinds,Partly Cloudy,7:05 AM,1707356100000,Walking,LivingRoom,Close,Thursday,3434n3hjhdjfhjdy,Morning Routine
+SmartDoor,Partly Cloudy,7:15 AM,1707356700000,Outdoor,LivingRoom,Lock,Thursday,3434n3hjhdjfhjdy,Morning Routine
+SmartDoor,Partly Cloudy,4:15 PM,1707389100000,Outdoor,LivingRoom,Unlock,Thursday,3434n3hjhdjfhjdy,Evening Routine
+SmartBlinds,Partly Cloudy,4:15 PM,1707389100000,Walking,LivingRoom,Open,Thursday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,4:15 PM,1707389100000,Relaxing,LivingRoom,On,Thursday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,4:15 PM,1707389100000,Refreshing,Bedroom,On,Thursday,3434n3hjhdjfhjdy,Evening Routine
+SmartBlinds,Partly Cloudy,4:20 PM,1707389400000,Refreshing,Bedroom,Open,Thursday,3434n3hjhdjfhjdy,Evening Routine
+WaterHeater,Partly Cloudy,4:22 PM,1707389520000,Refreshing,Bathroom,On,Thursday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,4:22 PM,1707389520000,Refreshing,Bathroom,On,Thursday,3434n3hjhdjfhjdy,Evening Routine
+SmartBlinds,Partly Cloudy,4:38 PM,1707390480000,Refreshing,Bedroom,Close,Thursday,3434n3hjhdjfhjdy,Evening Routine
+WaterHeater,Partly Cloudy,4:40 PM,1707390600000,Refreshing,Bathroom,Off,Thursday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,4:40 PM,1707390600000,Refreshing,Bathroom,Off,Thursday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,4:50 PM,1707391200000,Refreshing,LivingRoom,Off,Thursday,3434n3hjhdjfhjdy,Evening Routine
+SmartTV,Partly Cloudy,4:52 PM,1707391320000,WatchingTV,LivingRoom,On,Thursday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,5:00 PM,1707391800000,Cooking,Kitchen,On,Thursday,3434n3hjhdjfhjdy,Evening Routine
+Coffee Maker,Partly Cloudy,5:00 PM,1707391800000,Cooking,Kitchen,On,Thursday,3434n3hjhdjfhjdy,Evening Routine
+Coffee Maker,Partly Cloudy,5:05 PM,1707392100000,Cooking,Kitchen,Off,Thursday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,6:00 PM,1707395400000,Cooking,Kitchen,Off,Thursday,3434n3hjhdjfhjdy,Evening Routine
+SmartTV,Partly Cloudy,6:15 PM,1707396300000,WatchingTV,LivingRoom,Off,Thursday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,6:15 PM,1707396300000,Cooking,Kitchen,On,Thursday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,7:00 PM,1707399000000,Cooking,Kitchen,Off,Thursday,3434n3hjhdjfhjdy,Evening Routine
+SmartTV,Partly Cloudy,7:02 PM,1707399120000,WatchingTV,LivingRoom,On,Thursday,3434n3hjhdjfhjdy,Night Routine
+SmartTV,Partly Cloudy,7:30 PM,1707400800000,WatchingTV,LivingRoom,Off,Thursday,3434n3hjhdjfhjdy,Night Routine
+Light,Partly Cloudy,7:30 PM,1707400800000,Walking,LivingRoom,Off,Thursday,3434n3hjhdjfhjdy,Night Routine
+Light,Partly Cloudy,7:32 PM,1707400920000,Reading,Bedroom,On,Thursday,3434n3hjhdjfhjdy,Night Routine
+Light,Partly Cloudy,7:32 PM,1707400920000,Refreshing,Bathroom,On,Thursday,3434n3hjhdjfhjdy,Night Routine
+Light,Partly Cloudy,7:40 PM,1707401400000,Refreshing,Bathroom,Off,Thursday,3434n3hjhdjfhjdy,Night Routine
+Light,Partly Cloudy,8:30 PM,1707404400000,Sleeping,Bedroom,Off,Thursday,3434n3hjhdjfhjdy,Night Routine
+SmartBlinds,Partly Cloudy,6:00 AM,1707438600000,Awaken,Bedroom,Open,Friday,3434n3hjhdjfhjdy,Morning Routine
+Light,Partly Cloudy,6:00 AM,1707438600000,Awaken,Bedroom,On,Friday,3434n3hjhdjfhjdy,Morning Routine
+WaterHeater,Partly Cloudy,6:02 AM,1707438720000,Bathing,Bathroom,On,Friday,3434n3hjhdjfhjdy,Morning Routine
+Light,Partly Cloudy,6:02 AM,1707438720000,Bathing,Bathroom,On,Friday,3434n3hjhdjfhjdy,Morning Routine
+WaterHeater,Partly Cloudy,6:25 AM,1707440100000,Getting Ready,Bathroom,Off,Friday,3434n3hjhdjfhjdy,Morning Routine
+Light,Partly Cloudy,6:35 AM,1707440700000,Getting Ready,Bathroom,Off,Friday,3434n3hjhdjfhjdy,Morning Routine
+SmartBlinds,Partly Cloudy,6:35 AM,1707440700000,Getting Ready,Bedroom,Close,Friday,3434n3hjhdjfhjdy,Morning Routine
+Light,Partly Cloudy,6:35 AM,1707440700000,Getting Ready,Bedroom,Off,Friday,3434n3hjhdjfhjdy,Morning Routine
+SmartBlinds,Partly Cloudy,6:38 AM,1707440880000,Walking,LivingRoom,Open,Friday,3434n3hjhdjfhjdy,Morning Routine
+Coffee Maker,Partly Cloudy,6:40 AM,1707441000000,Cooking,Kitchen,On,Friday,3434n3hjhdjfhjdy,Morning Routine
+Light,Partly Cloudy,6:40 AM,1707441000000,Cooking,Kitchen,On,Friday,3434n3hjhdjfhjdy,Morning Routine
+Coffee Maker,Partly Cloudy,7:00 AM,1707442200000,Cooking,Kitchen,Off,Friday,3434n3hjhdjfhjdy,Morning Routine
+Light,Partly Cloudy,7:00 AM,1707442200000,Cooking,Kitchen,Off,Friday,3434n3hjhdjfhjdy,Morning Routine
+SmartBlinds,Partly Cloudy,7:05 AM,1707442500000,Walking,LivingRoom,Close,Friday,3434n3hjhdjfhjdy,Morning Routine
+SmartDoor,Partly Cloudy,7:15 AM,1707443100000,Outdoor,LivingRoom,Lock,Friday,3434n3hjhdjfhjdy,Morning Routine
+SmartDoor,Partly Cloudy,4:15 PM,1707475500000,Outdoor,LivingRoom,Unlock,Friday,3434n3hjhdjfhjdy,Evening Routine
+SmartBlinds,Partly Cloudy,4:15 PM,1707475500000,Walking,LivingRoom,Open,Friday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,4:15 PM,1707475500000,Relaxing,LivingRoom,On,Friday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,4:15 PM,1707475500000,Refreshing,Bedroom,On,Friday,3434n3hjhdjfhjdy,Evening Routine
+SmartBlinds,Partly Cloudy,4:20 PM,1707475800000,Refreshing,Bedroom,Open,Friday,3434n3hjhdjfhjdy,Evening Routine
+WaterHeater,Partly Cloudy,4:22 PM,1707475920000,Refreshing,Bathroom,On,Friday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,4:22 PM,1707475920000,Refreshing,Bathroom,On,Friday,3434n3hjhdjfhjdy,Evening Routine
+SmartBlinds,Partly Cloudy,4:38 PM,1707476880000,Refreshing,Bedroom,Close,Friday,3434n3hjhdjfhjdy,Evening Routine
+WaterHeater,Partly Cloudy,4:40 PM,1707477000000,Refreshing,Bathroom,Off,Friday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,4:40 PM,1707477000000,Refreshing,Bathroom,Off,Friday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,4:50 PM,1707477600000,Refreshing,LivingRoom,Off,Friday,3434n3hjhdjfhjdy,Evening Routine
+SmartTV,Partly Cloudy,4:52 PM,1707477720000,WatchingTV,LivingRoom,On,Friday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,5:00 PM,1707478200000,Cooking,Kitchen,On,Friday,3434n3hjhdjfhjdy,Evening Routine
+Coffee Maker,Partly Cloudy,5:00 PM,1707478200000,Cooking,Kitchen,On,Friday,3434n3hjhdjfhjdy,Evening Routine
+Coffee Maker,Partly Cloudy,5:05 PM,1707478500000,Cooking,Kitchen,Off,Friday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,6:00 PM,1707481800000,Cooking,Kitchen,Off,Friday,3434n3hjhdjfhjdy,Evening Routine
+SmartTV,Partly Cloudy,6:15 PM,1707482700000,WatchingTV,LivingRoom,Off,Friday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,6:15 PM,1707482700000,Cooking,Kitchen,On,Friday,3434n3hjhdjfhjdy,Evening Routine
+Light,Partly Cloudy,7:00 PM,1707485400000,Cooking,Kitchen,Off,Friday,3434n3hjhdjfhjdy,Evening Routine
+SmartTV,Partly Cloudy,7:02 PM,1707485520000,WatchingTV,LivingRoom,On,Friday,3434n3hjhdjfhjdy,Night Routine
+SmartTV,Partly Cloudy,7:30 PM,1707487200000,WatchingTV,LivingRoom,Off,Friday,3434n3hjhdjfhjdy,Night Routine
+Light,Partly Cloudy,7:30 PM,1707487200000,Walking,LivingRoom,Off,Friday,3434n3hjhdjfhjdy,Night Routine
+Light,Partly Cloudy,7:32 PM,1707487320000,Reading,Bedroom,On,Friday,3434n3hjhdjfhjdy,Night Routine
+Light,Partly Cloudy,7:32 PM,1707487320000,Refreshing,Bathroom,On,Friday,3434n3hjhdjfhjdy,Night Routine
+Light,Partly Cloudy,7:40 PM,1707487800000,Refreshing,Bathroom,Off,Friday,3434n3hjhdjfhjdy,Night Routine
+Light,Partly Cloudy,8:30 PM,1707490800000,Sleeping,Bedroom,Off,Friday,3434n3hjhdjfhjdy,Night Routine
