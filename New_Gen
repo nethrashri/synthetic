@@ -1,0 +1,96 @@
+import pandas as pd
+from datetime import datetime, timedelta
+import random
+
+# Constants
+class Activities:
+    AWAKEN = 'AwakeUp'
+    BATHING = 'Bathing'
+    COOKING = 'Cooking'
+
+class Rooms:
+    BEDROOM = 'Bedroom'
+    BATHROOM = 'Bathroom'
+    LIVING_ROOM = 'LivingRoom'
+    KITCHEN = 'Kitchen'
+
+class Devices:
+    LIGHTS = 'Lights'
+    WATER_HEATER = 'WaterHeater'
+    COFFEE_MAKER = 'CoffeeMaker'
+    SMART_BLINDS = 'SmartBlinds'
+    SMART_DOOR = 'SmartDoor'
+
+class PowerStatus:
+    OPEN = 'Open'
+    CLOSE = 'Close'
+    ON = 'On'
+    OFF = 'Off'
+    UNLOCK = 'Unlock'
+    LOCK = 'Lock'
+
+# Function to generate one activity for each routine per day
+def generate_daily_activities(current_time, day):
+    data = []
+
+    # Activity: Awaken (generated only once per day)
+    if day == 1:
+        data.append(generate_activity(Devices.SMART_BLINDS, current_time, Activities.AWAKEN, Rooms.BEDROOM, PowerStatus.OPEN, day))
+        data.append(generate_activity(Devices.LIGHTS, current_time, Activities.AWAKEN, Rooms.BEDROOM, PowerStatus.ON, day))
+
+    # Activity: Bathing
+    data.append(generate_activity(Devices.LIGHTS, current_time + timedelta(minutes=5), Activities.BATHING, Rooms.BATHROOM, PowerStatus.ON, day))
+    data.append(generate_activity(Devices.WATER_HEATER, current_time + timedelta(minutes=7), Activities.BATHING, Rooms.BATHROOM, PowerStatus.ON, day))
+    data.append(generate_activity(Devices.LIGHTS, current_time + timedelta(minutes=15), Activities.BATHING, Rooms.BATHROOM, PowerStatus.OFF, day))
+    data.append(generate_activity(Devices.WATER_HEATER, current_time + timedelta(minutes=17), Activities.BATHING, Rooms.BATHROOM, PowerStatus.OFF, day))
+    data.append(generate_activity(Devices.SMART_BLINDS, current_time, Activities.AWAKEN, Rooms.BEDROOM, PowerStatus.CLOSE, day))
+    
+    
+#   # Activity: Livingroom
+#     data.append(generate_activity(Devices.SMART_BLINDS, current_time + timedelta(minutes=80), Activities.COOKING, Rooms.LIVING_ROOM, PowerStatus.OPEN, day))
+    
+
+    # Activity: Cooking
+    data.append(generate_activity(Devices.SMART_BLINDS, current_time + timedelta(minutes=40), Activities.COOKING, Rooms.LIVING_ROOM, PowerStatus.OPEN, day))
+    data.append(generate_activity(Devices.LIGHTS, current_time + timedelta(minutes=42), Activities.COOKING, Rooms.LIVING_ROOM, PowerStatus.ON, day))
+    data.append(generate_activity(Devices.COFFEE_MAKER, current_time + timedelta(minutes=42), Activities.COOKING, Rooms.KITCHEN, PowerStatus.ON, day))
+    data.append(generate_activity(Devices.COFFEE_MAKER, current_time + timedelta(minutes=70), Activities.COOKING, Rooms.KITCHEN, PowerStatus.OFF, day))
+    data.append(generate_activity(Devices.LIGHTS, current_time + timedelta(minutes=72), Activities.COOKING, Rooms.KITCHEN, PowerStatus.OFF, day))
+
+  
+ # Activity: Going Out
+    
+    data.append(generate_activity(Devices.SMART_BLINDS, current_time + timedelta(minutes=80), Activities.COOKING, Rooms.LIVING_ROOM, PowerStatus.CLOSE, day))
+    data.append(generate_activity(Devices.SMART_DOOR, current_time + timedelta(minutes=82), Activities.COOKING, Rooms.LIVING_ROOM, PowerStatus.UNLOCK, day))
+    data.append(generate_activity(Devices.SMART_DOOR, current_time + timedelta(minutes=85), Activities.COOKING, Rooms.LIVING_ROOM, PowerStatus.LOCK, day))
+
+    return data
+
+# Function to generate one activity
+def generate_activity(device, current_time, activity, room, power_status, day):
+    return [
+        device,
+        current_time.strftime('%H:%M'),
+        current_time.timestamp(),
+        activity,
+        room,
+        power_status,
+        day,
+        current_time.hour,
+        current_time.minute
+    ]
+
+# Generate dataset for 4 weeks (20 weekdays)
+data = []
+
+for week in range(1, 5):
+    for day in range(1, 6):  # Monday to Friday
+        current_time = datetime.strptime(f'06:{random.randint(0, 29):02d}', '%H:%M')
+        data.extend(generate_daily_activities(current_time, day))
+
+# Create a DataFrame from the generated data
+columns = ['DeviceName', 'Time', 'Timestamp', 'Activity', 'RoomName', 'PowerStatus', 'Day', 'Hour', 'Minute']
+df = pd.DataFrame(data, columns=columns)
+
+# Print the generated dataset
+print(df)
