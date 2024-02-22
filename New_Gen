@@ -7,6 +7,7 @@ class Activities:
     AWAKEN = 'AwakeUp'
     BATHING = 'Bathing'
     COOKING = 'Cooking'
+    GOING_OUT = 'GoingOut'
 
 class Rooms:
     BEDROOM = 'Bedroom'
@@ -33,36 +34,39 @@ class PowerStatus:
 def generate_daily_activities(current_time, day):
     data = []
 
+    # Initialize activity status for each day
+    awaken_done = False
+    cooking_done = False
+    going_out_done = False
+
     # Activity: Awaken (generated only once per day)
-    if day == 1:
+    if not awaken_done:
         data.append(generate_activity(Devices.SMART_BLINDS, current_time, Activities.AWAKEN, Rooms.BEDROOM, PowerStatus.OPEN, day))
         data.append(generate_activity(Devices.LIGHTS, current_time, Activities.AWAKEN, Rooms.BEDROOM, PowerStatus.ON, day))
+        data.append(generate_activity(Devices.SMART_BLINDS, current_time, Activities.AWAKEN, Rooms.BEDROOM, PowerStatus.CLOSE, day))
+        awaken_done = True
 
     # Activity: Bathing
     data.append(generate_activity(Devices.LIGHTS, current_time + timedelta(minutes=5), Activities.BATHING, Rooms.BATHROOM, PowerStatus.ON, day))
     data.append(generate_activity(Devices.WATER_HEATER, current_time + timedelta(minutes=7), Activities.BATHING, Rooms.BATHROOM, PowerStatus.ON, day))
     data.append(generate_activity(Devices.LIGHTS, current_time + timedelta(minutes=15), Activities.BATHING, Rooms.BATHROOM, PowerStatus.OFF, day))
     data.append(generate_activity(Devices.WATER_HEATER, current_time + timedelta(minutes=17), Activities.BATHING, Rooms.BATHROOM, PowerStatus.OFF, day))
-    data.append(generate_activity(Devices.SMART_BLINDS, current_time, Activities.AWAKEN, Rooms.BEDROOM, PowerStatus.CLOSE, day))
-    
-    
-#   # Activity: Livingroom
-#     data.append(generate_activity(Devices.SMART_BLINDS, current_time + timedelta(minutes=80), Activities.COOKING, Rooms.LIVING_ROOM, PowerStatus.OPEN, day))
-    
 
-    # Activity: Cooking
-    data.append(generate_activity(Devices.SMART_BLINDS, current_time + timedelta(minutes=40), Activities.COOKING, Rooms.LIVING_ROOM, PowerStatus.OPEN, day))
-    data.append(generate_activity(Devices.LIGHTS, current_time + timedelta(minutes=42), Activities.COOKING, Rooms.LIVING_ROOM, PowerStatus.ON, day))
-    data.append(generate_activity(Devices.COFFEE_MAKER, current_time + timedelta(minutes=42), Activities.COOKING, Rooms.KITCHEN, PowerStatus.ON, day))
-    data.append(generate_activity(Devices.COFFEE_MAKER, current_time + timedelta(minutes=70), Activities.COOKING, Rooms.KITCHEN, PowerStatus.OFF, day))
-    data.append(generate_activity(Devices.LIGHTS, current_time + timedelta(minutes=72), Activities.COOKING, Rooms.KITCHEN, PowerStatus.OFF, day))
+    # Activity: Cooking (generated only once per day)
+    if not cooking_done:
+        data.append(generate_activity(Devices.SMART_BLINDS, current_time + timedelta(minutes=40), Activities.COOKING, Rooms.LIVING_ROOM, PowerStatus.OPEN, day))
+        data.append(generate_activity(Devices.LIGHTS, current_time + timedelta(minutes=42), Activities.COOKING, Rooms.LIVING_ROOM, PowerStatus.ON, day))
+        data.append(generate_activity(Devices.COFFEE_MAKER, current_time + timedelta(minutes=42), Activities.COOKING, Rooms.KITCHEN, PowerStatus.ON, day))
+        data.append(generate_activity(Devices.COFFEE_MAKER, current_time + timedelta(minutes=70), Activities.COOKING, Rooms.KITCHEN, PowerStatus.OFF, day))
+        data.append(generate_activity(Devices.LIGHTS, current_time + timedelta(minutes=72), Activities.COOKING, Rooms.KITCHEN, PowerStatus.OFF, day))
+        cooking_done = True
 
-  
- # Activity: Going Out
-    
-    data.append(generate_activity(Devices.SMART_BLINDS, current_time + timedelta(minutes=80), Activities.COOKING, Rooms.LIVING_ROOM, PowerStatus.CLOSE, day))
-    data.append(generate_activity(Devices.SMART_DOOR, current_time + timedelta(minutes=82), Activities.COOKING, Rooms.LIVING_ROOM, PowerStatus.UNLOCK, day))
-    data.append(generate_activity(Devices.SMART_DOOR, current_time + timedelta(minutes=85), Activities.COOKING, Rooms.LIVING_ROOM, PowerStatus.LOCK, day))
+    # Activity: Going Out (generated only once per day)
+    if not going_out_done:
+        data.append(generate_activity(Devices.SMART_BLINDS, current_time + timedelta(minutes=80), Activities.GOING_OUT, Rooms.LIVING_ROOM, PowerStatus.CLOSE, day))
+        data.append(generate_activity(Devices.SMART_DOOR, current_time + timedelta(minutes=82), Activities.GOING_OUT, Rooms.LIVING_ROOM, PowerStatus.UNLOCK, day))
+        data.append(generate_activity(Devices.SMART_DOOR, current_time + timedelta(minutes=85), Activities.GOING_OUT, Rooms.LIVING_ROOM, PowerStatus.LOCK, day))
+        going_out_done = True
 
     return data
 
